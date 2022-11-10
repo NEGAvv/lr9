@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle, rgb(245, 125, 1), rgb(252, 3, 23));
+  animation: colorChange 7s infinite alternate cubic-bezier(0.4, 0.7, 0.6, 0.4);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.playerInfo {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  font-size: 3vw;
+  text-align: center;
+  width: 33%;
+  word-wrap: break-word;
+}
+
+.player_nickname {
+  text-align: center;
+}
+
+.points {
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.attempts {
+  width: 33%;
+  font-size: 2vw;
+  align-self: center;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.playerCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+.card_background {
+  display: inline-flex;
+  margin: 10px;
+  text-decoration: none;
+  position: relative;
+  font-size: 3vw;
+  line-height: 2vw;
+  padding: 2vw 2vw;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #337AB7;
+  cursor: pointer;
+  border: 2px solid #BFE2FF;
+  border-radius: 10px;
+}
+
+.result_text {
+  text-align: center;
+  font-size: 5vw;
+}
+
+img {
+  width: 60%;
+  border-radius: 5%;
+}
+
+@keyframes colorChange {
+  0% {
+    background-position: top;
+    background-size: 400% 200%;
+  }
+
+  35% {
+    background-position: right;
+    background-size: 200% 200%;
+  }
+
+  65% {
+    background-position: bottom;
+    background-size: 400% 200%;
+  }
+
+  100% {
+    background-position: left;
+    background-size: 200% 200%;
+  }
+}
