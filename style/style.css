@@ -155,6 +155,8 @@ img {
     border-right: 5px solid #fcfffc;
     left: -346px;
     top: 0px;
+    display: flex;
+    flex-direction:row;
 }
 .menu:hover{
     left: 0;
