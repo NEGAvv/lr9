@@ -115,3 +115,61 @@ img {
     background-size: 200% 200%;
   }
 }
+
+.title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #fcfffc;
+}
+.list_menu a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #fcfffc;
+    border-left: 2px solid #f5b7c7;
+    padding-left: 5px;
+    transition: all 0.2s ease;
+}
+.list_menu a:hover{
+    border-left: 2px solid #f5b7c7;
+    padding-left: 10px;
+    transition: all 0.2s ease;
+}
+.footer_menu p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fcfffc;
+}
+.list_menu{
+    margin-bottom: 50px;
+}
+.list_menu li{
+    margin: 20px 0;
+}
+.menu{
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(20,20,20,.5);
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    border-right: 5px solid #fcfffc;
+    left: -346px;
+    top: 0px;
+}
+.menu:hover{
+    left: 0;
+    transition: all 0.2s ease;
+}
+.content{
+    
+    width: 280px;
+    height: 100vh;
+    overflow: hidden;
+}
+ul{
+    list-style: circle;
+    font-size: 40px;
+}
+li a{
+    font-size: 40px;
+}
